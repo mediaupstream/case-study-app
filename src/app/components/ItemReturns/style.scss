@@ -1,0 +1,30 @@
+@import 'src/_variables';
+
+#ItemReturns {
+  margin: $containerMargin;
+  padding: $containerPadding;
+
+  
+  h3, p { color: #777; }
+
+  h3 {
+    padding:0;
+    margin:0;
+    margin-top:2px;
+    font-weight:300;
+  }
+
+  p {
+    border-left:2px solid #d0d0d0;
+    margin-right:0;
+    padding-right:0;
+    padding-bottom:0;
+    padding-top:2;
+    font-size:0.8em;
+    a {
+      color:#000;
+      font-weight:500;
+    }
+  }
+
+}

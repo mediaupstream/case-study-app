@@ -1,0 +1,19 @@
+#ItemDescription {
+  h2 {
+    font-size:2.5em;
+    font-weight:400;
+  }
+  ul {
+    margin:20px;
+    padding:0;
+  }
+  ul li {
+    padding:4px 0;
+    padding-left:8px;
+    font-weight:400;
+    color:#777;
+    strong {
+      font-weight:400;
+    }
+  }
+}

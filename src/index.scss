@@ -1,0 +1,17 @@
+$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import './_variables';
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+/* Bootstrap Resets */
+
+.btn:focus, 
+.btn:active:focus, 
+.btn.active:focus { 
+  outline: none !important;
+  outline-style: none; 
+}
+
+body {
+  padding-top:80px;
+  padding-bottom:120px;
+}

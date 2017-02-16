@@ -1,0 +1,32 @@
+@import 'src/_variables';
+
+#PurchaseActions {
+  margin: $containerMargin;
+  padding: $containerPadding;
+}
+
+.quantityCounter {
+  padding:4px 6px 2px 6px;
+  border: 1px solid $brand-light-gray;
+  p {
+    line-height:2em;
+    margin:0;
+  }
+  .btn {
+    padding:0;
+    margin:0;
+    span {
+      color:$brand-light-gray;
+      font-size:2em;
+    }
+  }
+  
+  .quantityText {
+    font-size:1.3em;
+  }
+}
+
+.purchaseButtons {
+  padding-top:20px;
+}
+

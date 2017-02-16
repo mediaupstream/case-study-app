@@ -1,0 +1,42 @@
+@import 'src/_variables';
+
+#ItemImages {
+  
+  .col-xs-2 {
+    padding:0;
+    margin:0;
+    text-align:center;
+    button.btn-img {
+      padding:0;
+    }
+    button.btn-arrow {
+      color:#777;
+    }
+  }
+
+  figure {
+    padding-top:20px;
+    padding-bottom:10px;
+    img {
+      margin-bottom:40px;
+    }
+    .view-larger {
+      color:#999;
+    }
+    .glyphicon-zoom-in {
+      font-size:2em;
+      color:#bbb;
+      vertical-align: middle;
+    }
+  }
+  .item-carousel {
+    .btn.active {
+      border:1px solid #aaa;
+    }
+  }
+  .figure-caption {
+    margin:$containerMargin;
+    padding:$containerPadding;
+
+  }
+}

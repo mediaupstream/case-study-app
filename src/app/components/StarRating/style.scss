@@ -1,0 +1,15 @@
+@import 'src/_variables.scss';
+
+.star-rating {
+  color:#888;
+  padding:1px;
+}
+.star-rating--active {
+  color: $brand-primary
+}
+.star-rating--large {
+  font-size:1.7em;
+}
+.star-rating--small {
+  font-size:0.7em;
+}

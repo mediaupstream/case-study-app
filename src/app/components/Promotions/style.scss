@@ -1,0 +1,21 @@
+@import 'src/_variables';
+
+#Promotions {
+  margin: 25px 0;
+  padding:8px 0;
+  border:$brand-border;
+  border-width:1px 0;
+}
+#Promotions {
+  ul, ul li {
+    list-style-type:none;
+    margin:0;
+    padding:2px 0;
+  }
+  ul li button {
+    font-size:1em;
+  }
+  li span {
+    padding-right:4px;
+  }
+}
