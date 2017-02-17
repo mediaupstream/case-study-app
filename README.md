@@ -2,6 +2,20 @@
 
 A frontend case study built with ReactJS, Boostrap, and Sass.
 
+## Installation
+
+Clone the project and run:
+
+```bash
+npm install
+```
+
+Or you can use `yarn` if you prefer:
+
+```bash
+yarn install
+```
+
 ### Available Scripts
 
 In the project directory, you can run:
