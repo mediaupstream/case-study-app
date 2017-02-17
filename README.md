@@ -1,5 +1,7 @@
 ## Frontend case study
 
+[![Build Status](https://travis-ci.org/mediaupstream/case-study-app.svg?branch=master)](https://travis-ci.org/mediaupstream/case-study-app)
+
 A frontend case study built with ReactJS, Boostrap, and Sass.
 
 ## Installation
