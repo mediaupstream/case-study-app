@@ -19,9 +19,10 @@
     "build-css": "node-sass src/ -o src/ --include-path src",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
+    "test-js": "react-scripts test --env=jsdom",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
-    "test": "npm-run-all -p build-css start-js --env=jsdom",
+    "test": "npm-run-all -p build-css test-js",
     "eject": "react-scripts eject"
   }
 }
