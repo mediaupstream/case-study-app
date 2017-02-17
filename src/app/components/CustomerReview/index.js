@@ -7,7 +7,7 @@ export default class CustomerReview extends Component {
     return (
       <article className={`product-review ${this.props.className}`} key={this.props.review.reviewKey}>
         <header>
-          <StarRating rating={this.props.review.overallRating}/>
+          <StarRating rating={Number(this.props.review.overallRating)}/>
           <h4>{this.props.review.title}</h4>
         </header>
         <p>{this.props.review.review}</p>

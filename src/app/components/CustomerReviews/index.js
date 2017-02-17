@@ -9,7 +9,7 @@ export default class CustomerReviews extends Component {
       <div className="col-md-6" id="CustomerReviews">
         <div className="row" id="OverallRating">
           <div className="col-xs-6" >
-            <StarRating className="star-rating--large" rating={this.props.reviews.consolidatedOverallRating}/>
+            <StarRating className="star-rating--large" rating={Number(this.props.reviews.consolidatedOverallRating)}/>
             <strong>overall</strong>
           </div>
           <div className="col-xs-6 text-right">

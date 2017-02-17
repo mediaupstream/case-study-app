@@ -67,7 +67,7 @@ export default class PurchaseActions extends Component {
         <button 
           type="button" 
           onClick={this.handleAddToCart}
-          className="btn btn-primary btn-lg btn-block text-uppercase">
+          className="btn btn-primary btn-lg btn-block text-uppercase btn--add-to-cart">
           ADD TO CART
         </button>
       )
@@ -86,7 +86,7 @@ export default class PurchaseActions extends Component {
         Number(code) === 2){
       return (
         <span>
-          <button type="button" className="btn btn-info btn-lg btn-block text-uppercase">PICK UP IN STORE</button>
+          <button type="button" className="btn btn-info btn-lg btn-block text-uppercase btn--pickup-in-store">PICK UP IN STORE</button>
           <p className="text-center"><button className="btn btn-link btn-sm">find in a store</button></p>
         </span>
       )
@@ -106,13 +106,13 @@ export default class PurchaseActions extends Component {
             <div className="col-xs-6 text-right">
               <button 
                 disabled={disabledBtn} 
-                className="btn btn-link" 
+                className="btn btn-link btn--decrement-quantity" 
                 onClick={this.handleDecQuantity}>
                 <span className="glyphicon glyphicon-minus-sign" />
               </button>
               <span className="quantityText"> {this.state.quantity} </span>
               <button 
-                className="btn btn-link" 
+                className="btn btn-link btn--increment-quantity" 
                 onClick={this.handleIncQuantity}>
                 <span className="glyphicon glyphicon-plus-sign"/>
               </button>
@@ -138,5 +138,5 @@ PurchaseActions.defaultProps = {
 };
 
 PurchaseActions.propTypes = {
-  purchasingChannelCode: PropTypes.any
+  purchasingChannelCode: PropTypes.number
 };

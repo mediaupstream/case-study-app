@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
+    "enzyme": "^2.7.1",
     "node-sass": "^4.5.0",
     "npm-run-all": "^4.0.1",
     "react-addons-test-utils": "^15.4.2",
