@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '6'
+deploy:
+  provider: s3
+  access_key_id: AKIAJVMYBJZVOXK3QMJQ
+  secret_access_key:
+    secure: O/cNCKAIkzntH93O1pWoiqJBErZ3PfdshQ9VvfGuDCVuRpcre9QEkBx/tcnE91vRoLxysa5V5sKifDUbzYh/hZbnR5rzK9KInMBp07Is5dFwntE3xJByReOSZRrsD1QvrLW2JSf/v2Ha4wzL1tzVa9QeimH6BBmwvLGvl2Ys59E8WGBuKDKMp95AjDvVlxuki+BNBWl8LdsBkFaB+aclIlRkAC0FqGl54SkRaq0VfXlarMYcaxdNuxZMzQvdHxp2ZPmIkODNdq3TplaT6M6JIJ/q1ceFva+SUwDLPvCKQ9MPW+WruQFpUQq9EGflO8HbugGjK0XgGXovHuEvG+YdZgAuDzcjaNNT3xQNzffclgCulAjYxE9nWyYkm65flVdp1jeifrtqXhjGnE6Fi2xFPDHDtw20U9uHe+6KnkeVPOwYLIWpH0m5dczjHyi9EQONAkr410ctC1eFnBiJ3U0zZPgHIOugPNQjnwfqkLfUvFB8ulwLGW/PIaDUQPMXflWrCYVQP+f96QPifRMTJZnr7eQuXZTdb6EopyUdeieZbIoQE0Nvo7qtBikz2+xvU+Qz+eHnYZcza9BgBbCoUvjPkBMtpGpcAA4PTIxqymt1ObhxQXq7XHLYEoztTGleAtMyyj9FdJ9QJU+yUwX/OItDtLERYdqQJBYjkX9bM8wA6qk=
+  bucket: case-study-app-bucket
+  local-dir: build
+  acl: public_read
+  on:
+    repo: mediaupstream/case-study-app
