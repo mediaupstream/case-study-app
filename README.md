@@ -15,7 +15,7 @@ npm install
 Or you can use [Yarn](https://yarnpkg.com/en/) if you prefer:
 
 ```bash
-yarn
+yarn start
 ```
 
 ## Production Deploy
